@@ -8,44 +8,35 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane fx:id="pane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainFormController">
+<AnchorPane fx:id="pane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ecf0f1;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainFormController">
    <children>
-      <Label layoutX="277.0" layoutY="21.0" prefHeight="365.0" prefWidth="329.0" text=".">
-         <graphic>
-            <ImageView fitHeight="377.0" fitWidth="322.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../img/new.png" />
-               </image>
-            </ImageView>
-         </graphic>
-      </Label>
-      <JFXButton layoutX="32.0" layoutY="130.0" onAction="#itemsOnAction" prefHeight="39.0" prefWidth="179.0" style="-fx-background-color: Orange;" text="ITEMS">
+      <Label layoutX="277.0" layoutY="21.0" prefHeight="365.0" prefWidth="329.0" text="." />
+      <JFXButton layoutX="32.0" layoutY="130.0" onAction="#itemsOnAction" prefHeight="39.0" prefWidth="179.0" style="-fx-background-color: #8e44ad;" text="ITEMS" textFill="#f8f4f4">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </JFXButton>
-      <JFXButton layoutX="32.0" layoutY="251.0" onAction="#ordersOnAction" prefHeight="39.0" prefWidth="179.0" style="-fx-background-color: Orange;" text="ORDERS">
+      <JFXButton layoutX="32.0" layoutY="251.0" onAction="#ordersOnAction" prefHeight="39.0" prefWidth="179.0" style="-fx-background-color: #8e44ad;" text="ORDERS" textFill="#f8f7f7">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </JFXButton>
-      <JFXButton layoutX="32.0" layoutY="191.0" onAction="#placeOrderOnAction" prefHeight="39.0" prefWidth="179.0" style="-fx-background-color: Orange;" text="PLACE ORDER">
+      <JFXButton layoutX="32.0" layoutY="191.0" onAction="#placeOrderOnAction" prefHeight="39.0" prefWidth="179.0" style="-fx-background-color: #8e44ad;" text="PLACE ORDER" textFill="#fffefe">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </JFXButton>
-      <JFXButton layoutX="33.0" layoutY="70.0" onAction="#customersOnAction" prefHeight="39.0" prefWidth="179.0" style="-fx-background-color: Orange;" text="CUSTOMERS">
+      <JFXButton layoutX="33.0" layoutY="70.0" onAction="#customersOnAction" prefHeight="39.0" prefWidth="179.0" style="-fx-background-color: #8e44ad;" text="CUSTOMERS" textFill="#f5f5f5">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </JFXButton>
-      <JFXButton layoutX="33.0" layoutY="313.0" onAction="#reportsOnAction" prefHeight="39.0" prefWidth="179.0" style="-fx-background-color: Orange;" text="REPORTS">
+      <JFXButton layoutX="33.0" layoutY="313.0" onAction="#reportsOnAction" prefHeight="39.0" prefWidth="179.0" style="-fx-background-color: #8e44ad;" text="REPORTS" textFill="#f5f3f3">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </JFXButton>
-      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backbtnOnAction" prefHeight="39.0" prefWidth="40.0" style="-fx-background-color: lightblue;" text=".">
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backbtnOnAction" prefHeight="39.0" prefWidth="40.0" style="-fx-background-color: #ecf0f1;" text=".">
          <graphic>
             <ImageView fitHeight="39.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
