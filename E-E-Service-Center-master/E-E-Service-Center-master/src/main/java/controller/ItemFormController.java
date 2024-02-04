@@ -110,7 +110,10 @@ public class ItemFormController {
     }
 
     private void generateItemCode() {
-
+        String prefix = "I#";
+        String formattedCounter = String.format("%05d", itemCounter + 1);
+        String generatedCode = prefix + formattedCounter;
+        txtCode.setText(generatedCode);
 
     }
 
