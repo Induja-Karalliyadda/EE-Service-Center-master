@@ -162,7 +162,11 @@ public class OrderDetailFormController {
     }
 
     private void refreshTableRow(OrderDetailTm updatedOrderDetail) {
-
+        int index = orderDetailList.indexOf(updatedOrderDetail);
+        if (index != -1) {
+            orderDetailList.set(index, updatedOrderDetail);
+            tblOrderDetail.refresh();
+        }
     }
 
 //    private void refreshTable() throws SQLException, ClassNotFoundException {
