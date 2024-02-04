@@ -50,7 +50,14 @@ public class MainFormController {
     }
 
     public void customersOnAction(javafx.event.ActionEvent actionEvent) {
-
+        Stage stage = (Stage) pane.getScene().getWindow();
+        try {
+            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/CustomersForm.fxml"))));
+            stage.setTitle("Customer Form");
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public void reportsOnAction(javafx.event.ActionEvent actionEvent) {
