@@ -31,6 +31,13 @@ public class PasswordFormController {
     }
 
     public void OTPBtnOnAction(ActionEvent actionEvent) {
-
+        Stage stage = (Stage) pane.getScene().getWindow();
+        try {
+            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/VerificationForm.fxml"))));
+            stage.setTitle(" Verification ");
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
