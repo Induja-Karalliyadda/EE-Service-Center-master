@@ -40,7 +40,14 @@ public class VerificationFormController {
     }
 
     public void verifyBtnOnAction(ActionEvent actionEvent) {
-        .
-        
+        Stage stage = (Stage) pane.getScene().getWindow();
+        try {
+            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/DashboardForm.fxml"))));
+            stage.setTitle(" Dashboard ");
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
     }
 }
