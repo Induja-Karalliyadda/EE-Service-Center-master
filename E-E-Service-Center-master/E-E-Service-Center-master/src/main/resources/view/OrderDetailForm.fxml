@@ -62,12 +62,12 @@
                   <TreeTableColumn fx:id="colPrice" prefWidth="124.0" text="Net Price" />
                </columns>
             </JFXTreeTableView>
-            <JFXButton onAction="#searchButtonOnAction" prefHeight="25.0" prefWidth="66.0" style="-fx-background-color: yellow;" text="Search" GridPane.columnIndex="1" GridPane.rowIndex="10">
+            <JFXButton onAction="#searchButtonOnAction" prefHeight="24.0" prefWidth="121.0" style="-fx-background-color: #8e44ad;" text="Search" textFill="#f8f8f8" GridPane.columnIndex="1" GridPane.rowIndex="4">
                <font>
                   <Font name="System Bold" size="11.0" />
                </font>
             </JFXButton>
-            <JFXButton onAction="#updateButtonOnAction" style="-fx-background-color: red;" text="Update" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="8">
+            <JFXButton onAction="#updateButtonOnAction" prefHeight="25.0" prefWidth="119.0" style="-fx-background-color: #8e44ad;" text="Update" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
@@ -76,7 +76,7 @@
                <graphic>
                   <ImageView fitHeight="26.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../../../../JavaFX/WorkZone/layered/src/main/resources/img/bck.png" />
+                        <Image url="@../img/back.png" />
                      </image>
                   </ImageView>
                </graphic>
