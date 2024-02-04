@@ -78,7 +78,7 @@
                   <TreeTableColumn fx:id="colContact" prefWidth="126.0" text="Contact " />
                     </columns>
                 </JFXTreeTableView>
-                <JFXButton onAction="#saveButtonOnAction" prefHeight="25.0" prefWidth="59.0" style="-fx-background-color: royalblue;" text="Save" textFill="WHITE" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="7">
+                <JFXButton onAction="#saveButtonOnAction" prefHeight="25.0" prefWidth="59.0" style="-fx-background-color: #8e44ad;" text="Save" textFill="WHITE" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="7">
                     <font>
                         <Font name="System Bold" size="14.0" />
                     </font>
@@ -86,7 +86,7 @@
                         <Cursor fx:constant="HAND" />
                     </cursor>
                 </JFXButton>
-                <JFXButton layoutX="600.0" layoutY="461.0" onAction="#updateButtonOnAction" prefHeight="30.0" prefWidth="83.0" style="-fx-background-color: #c6a645;" text="Update" textFill="WHITE" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="7">
+                <JFXButton layoutX="600.0" layoutY="461.0" onAction="#updateButtonOnAction" prefHeight="30.0" prefWidth="83.0" style="-fx-background-color: #8e44ad;" text="Update" textFill="WHITE" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="7">
                     <font>
                         <Font name="System Bold" size="14.0" />
                     </font>
@@ -106,7 +106,7 @@
                         </ImageView>
                     </graphic>
                 </JFXButton>
-            <Button mnemonicParsing="false" onAction="#reportBtnOnAction" style="-fx-background-color: yellow;" text="Report" GridPane.columnIndex="1" GridPane.rowIndex="7">
+            <Button mnemonicParsing="false" onAction="#reportBtnOnAction" style="-fx-background-color: #8e44ad;" text="Report" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="7">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
