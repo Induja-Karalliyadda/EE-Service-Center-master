@@ -108,10 +108,25 @@ public class DashboardFormController {
     public void registerButtonOnAction(javafx.event.ActionEvent actionEvent) throws SQLException, ClassNotFoundException {
 
 
-
+        Stage stage = (Stage) pane.getScene().getWindow();
+        try {
+            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/UserDashBoardForm.fxml"))));
+            stage.setTitle("User Dashboard ");
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public void forgotBtnOnAction(ActionEvent actionEvent) {
+        Stage stage = (Stage) pane.getScene().getWindow();
+        try {
+            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/PasswordForm.fxml"))));
+            stage.setTitle("Password ");
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
     }
 }
