@@ -78,7 +78,13 @@ public class CustomersFormController {
         });
     }
     private void setData(CustomerTm newValue) {
-
+        if (newValue != null) {
+            txtID.setEditable(false);
+            txtID.setText(newValue.getId());
+            txtName.setText(newValue.getName());
+            txtContact.setText(newValue.getContactNumber());
+            txtEmail.setText(newValue.getEmail());
+        }
     }
     private void loadCustomerTable() {
         ObservableList<CustomerTm> tmList = FXCollections.observableArrayList();
