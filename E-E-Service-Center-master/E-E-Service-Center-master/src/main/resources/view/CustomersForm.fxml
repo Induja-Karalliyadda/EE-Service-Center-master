@@ -10,14 +10,14 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="pane" prefHeight="460.0" prefWidth="676.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CustomersFormController">
+<AnchorPane fx:id="pane" prefHeight="460.0" prefWidth="676.0" style="-fx-background-color: #ecf0f1;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CustomersFormController">
    <children>
-      <Label alignment="TOP_CENTER" layoutX="137.0" layoutY="27.0" prefHeight="42.0" prefWidth="393.0" text="CUSTOMER FORM" textFill="#07259a">
+      <Label alignment="TOP_CENTER" layoutX="127.0" layoutY="22.0" prefHeight="55.0" prefWidth="456.0" text="CUSTOMER FORM" textFill="#8e44ad">
          <font>
-            <Font name="Bernard MT Condensed" size="48.0" />
+            <Font name="Arial" size="48.0" />
          </font>
       </Label>
-      <Button layoutY="2.0" mnemonicParsing="false" onAction="#backBtnOnAction" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: lightblue;" text=".">
+      <Button layoutY="2.0" mnemonicParsing="false" onAction="#backBtnOnAction" prefHeight="25.0" prefWidth="28.0" style="-fx-background-color: #ecf0f1;" text=".">
          <graphic>
             <ImageView fitHeight="37.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true">
                <image>
