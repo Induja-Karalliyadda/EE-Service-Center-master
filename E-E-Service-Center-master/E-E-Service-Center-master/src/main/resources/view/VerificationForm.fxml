@@ -9,22 +9,14 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="pane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.VerificationFormController">
+<AnchorPane fx:id="pane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ecf0f1;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.VerificationFormController">
    <children>
-      <Label alignment="TOP_CENTER" layoutX="114.0" layoutY="42.0" prefHeight="42.0" prefWidth="393.0" text="E &amp; E Service Center" textFill="#07259a">
+      <Label alignment="TOP_CENTER" layoutX="86.0" layoutY="37.0" prefHeight="55.0" prefWidth="457.0" text="E &amp; E Service Center" textFill="#8e44ad">
          <font>
-            <Font name="Bernard MT Condensed" size="48.0" />
+            <Font name="Arial" size="48.0" />
          </font>
       </Label>
-      <Label layoutX="23.0" layoutY="140.0">
-         <graphic>
-            <ImageView fitHeight="196.0" fitWidth="314.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../img/e1.jpg" />
-               </image>
-            </ImageView>
-         </graphic>
-      </Label>
+      <Label layoutX="23.0" layoutY="140.0" />
       <JFXButton layoutX="14.0" layoutY="14.0" onAction="#backBtnOnAction" prefHeight="25.0" prefWidth="35.0" text=".">
          <graphic>
             <ImageView fitHeight="35.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
@@ -34,15 +26,15 @@
             </ImageView>
          </graphic>
       </JFXButton>
-      <Label layoutX="392.0" layoutY="132.0" text="Verification" textFill="#f50000">
+      <Label layoutX="224.0" layoutY="105.0" prefHeight="35.0" prefWidth="139.0" text="Verification">
          <font>
-            <Font name="System Bold" size="24.0" />
+            <Font size="24.0" />
          </font>
       </Label>
-      <JFXTextField fx:id="txtOTP" layoutX="369.0" layoutY="208.0" prefHeight="43.0" prefWidth="170.0" />
-      <Button layoutX="492.0" layoutY="278.0" mnemonicParsing="false" text="Resend OTP" textFill="#fc0505" />
-      <Label layoutX="402.0" layoutY="282.0" text="Didn't get code?" />
-      <JFXButton layoutX="427.0" layoutY="327.0" onAction="#verifyBtnOnAction" style="-fx-background-color: blue;" text="Verify" textFill="WHITE">
+      <JFXTextField fx:id="txtOTP" layoutX="193.0" layoutY="200.0" prefHeight="43.0" prefWidth="242.0" promptText="Enter OTP" />
+      <Button layoutX="315.0" layoutY="247.0" mnemonicParsing="false" text="Resend OTP" textFill="#2c2a2a" />
+      <Label layoutX="193.0" layoutY="252.0" text="Didn't get code?" />
+      <JFXButton layoutX="194.0" layoutY="317.0" onAction="#verifyBtnOnAction" prefHeight="42.0" prefWidth="242.0" style="-fx-background-color: #8e44ad;" text="Submit" textFill="WHITE">
          <font>
             <Font name="System Bold" size="19.0" />
          </font>
